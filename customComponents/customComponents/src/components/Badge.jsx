@@ -19,8 +19,8 @@ export default function Badge({
     }
 
     return (
-            <div className={clsx('badge-base', colorClasses[color], className)}>
+            <span className={clsx('badge-base', colorClasses[color], className)}>
                 {children}
-            </div>
+            </span>
     )
 }

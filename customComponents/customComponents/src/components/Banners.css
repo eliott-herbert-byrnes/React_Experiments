@@ -1,0 +1,43 @@
+.banner-base{
+  padding: 1rem;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin: 0.5rem;
+  max-width: 100%;
+}
+
+.banner-default, .banner-success{
+    background-color: #ECFDF5;
+    color: #065F46;
+}
+
+.banner-warning{
+    background-color: #FFFBEB;
+    color: #92400E;
+}
+
+.banner-error{
+    background-color: #FEF2F2;
+    color: #92400E;   
+}
+
+.banner-neutral{
+    background-color: #EFF6FF;
+    color: #1E40AF; 
+}
+
+.banner-title{
+    display: flex;
+    flex-direction: row;
+    gap: 0.7rem;
+}
+
+h3, p{
+    margin: 0.25rem 0;
+    padding: 0;
+}
+
+p{
+    font-weight: 400;
+}

@@ -6,12 +6,17 @@
   text-align: center;
 }
 
-.badges{
+.badges {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
+}
+
+.banners{
+  display: flex;
+  flex-direction: column;
 }
 
 .color{
