@@ -5,6 +5,7 @@
   font-weight: 500;
   margin: 0.5rem;
   max-width: 100%;
+  cursor:default;
 }
 
 .banner-default, .banner-success{
@@ -33,9 +34,9 @@
     gap: 0.7rem;
 }
 
-h3, p{
-    margin: 0.25rem 0;
-    padding: 0;
+.banner-title h3,
+.banner-base p {
+  margin: 0.25rem 0;
 }
 
 p{

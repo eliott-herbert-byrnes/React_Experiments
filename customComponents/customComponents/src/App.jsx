@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom'
 import './App.css'
 import Badge from './components/Badge'
 import Banners from './components/Banners'
+import Card from './components/Card'
+import Testimonial from './components/Testimonial'
 
 function App() {
 
@@ -20,6 +22,7 @@ function App() {
         <Badge color='purple'>Badge</Badge>
         <Badge color='pink'>Badge</Badge>
       </div>
+
       <br />
 
       <h2>Banners</h2>
@@ -72,6 +75,59 @@ function App() {
           status='neutral'
         ></Banners>
       </div>
+
+      <br />
+
+      <h2>Cards</h2>
+      <br />
+      <br />
+      <div className='cards'>
+        <Card
+        title='Easy Deployment'
+        text='Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.'  
+        >
+        </Card>
+
+        <Card
+        title='Easy Deployment'
+        text='Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.' 
+        color='red' 
+        >
+        </Card>
+        
+        <Card
+        title='Easy Deployment'
+        text='Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.' 
+        color='green' 
+        >
+        </Card>
+      </div>
+
+      <br />
+
+      <h2>Testimonials</h2>
+      <br />
+      <br />
+      <div className='testimonials'>
+
+      <Testimonial
+      text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit.'
+      name='May Andersons'
+      employer='Workcation'
+      position='CTO'
+      variant='image'
+      >
+      </Testimonial>
+         <Testimonial
+      text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit.'
+      name='May Andersons'
+      employer='Workcation'
+      position='CTO'
+      >
+      </Testimonial>
+
+      </div>
+
     </>
 
 

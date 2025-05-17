@@ -19,6 +19,17 @@
   flex-direction: column;
 }
 
+.testimonials{
+  display: flex;
+  flex-direction: column;
+  gap: 5.5rem;
+}
+
+.cards{
+  display: flex;
+  gap: 1rem;
+}
+
 .color{
   background-color: red;
 }

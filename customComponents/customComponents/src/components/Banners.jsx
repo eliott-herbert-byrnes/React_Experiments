@@ -27,24 +27,18 @@ export default function Banners({ title, text, status = 'default', variant }) {
 
     return (
         <>
-            {variant === 'multi' ?
-                <span className={clsx('banner-base', statusClasses[status])}>
+                <div 
+                role='status'
+                aria-live='polite'
+                className={clsx('banner-base', statusClasses[status])}>
                     <div className='banner-title'>
                         <img src={icons[status]} alt='banner icon' />
                         <h3>
                             {title}
                         </h3>
                     </div>
-                    <p>{text}</p>
-                </span>
-                :
-                <span className={clsx('banner-base', statusClasses[status])}>
-                    <div className='banner-title'>
-                        <img src={icons[status]} alt='banner icon' />
-                        <h3>{title}</h3>
-                    </div>
-                </span>
-            }
+                    {variant === 'multi' && <p>{text}</p>}
+                </div>
         </>
     )
 }
