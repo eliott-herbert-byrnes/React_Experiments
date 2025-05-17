@@ -18,7 +18,6 @@ export default function Badge({
         pink: 'badge-pink'
     }
 
-
     return (
             <div className={clsx('badge-base', colorClasses[color], className)}>
                 {children}
