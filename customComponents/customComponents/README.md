@@ -1,37 +1,21 @@
-# Custom Components
+# React Component Library Showcase
 
-A collection of custom compound componenets created using React.
+This project is a collection of custom-designed, reusable React UI components built with accessibility and modularity in mind. It includes:
 
-## Badges
+- ✅ Badges
+- ✅ Banners
+- ✅ Cards
+- ✅ Testimonials
 
-Badge.jsx
-- **Props:**
-```JavaScript
-export default function Badge({ children, color = 'default', className = '' }) {
-```
-    'children' - the content inside the badge e.g 'Click me', 'Open'...
-    'color' - Optional; if not passed, defaults to 'default'.
-    'ClassName' - Optional extra styles (e.g., margins, layout adjustments)
+Each component has configurable props and styles, and is designed to be easily extended or integrated into other React applications.
 
-- Color Mapping:
-```JavaScript
-const colorClasses = {
-    default: 'badge-default',
-    red: 'badge-red',
-    yellow: 'badge-yellow',
-    ...
-}
+---
 
-```
-    object created to map each color prop value to a CSS class name
+## 🔧 Tech Stack
 
-- Rendering the badge:
-```JavaScript
-<div className={clsx('badge-base', colorClasses[color], className)}>
-  {children}
-</div>
-```
-    clsx(...) joins multiple class names intelligently.
-    'badge-base' - Common base style for all badges.
-    'colorClasses[color] - Color-specific style (like 'badge-green').
-    className - any extra class passed by the user (optional).
+- React
+- Vite (or CRA if applicable)
+- Plain CSS (component-scoped)
+- `clsx` for conditional class management
+
+---
