@@ -1,19 +1,26 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# VanLife React Application
+VanLife is a full-featured React application that simulates a van rental platform, inspired by the #vanlife movement. Built with React, React Router v6, and MirageJS for API mocking, this project demonstrates modern frontend development practices, including:
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
-
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
-
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
-
-Happy Coding!
+- Client-side Routing: Seamless navigation using React Router v6, with nested routes and route protection for host-only pages.
+- Authentication Flow: Simple login system with protected routes for hosts, using localStorage for session management.
+- Data Layer: Data is fetched from a mock API powered by MirageJS, with optional Firebase Firestore integration for real data.
+- Component Architecture: Modular, reusable components for layout, navigation, error handling, and page content.
+- Host Dashboard: Special host section with dashboard, income analytics, reviews, and van management.
+- Filtering & State Management: Vans can be filtered by type, with stateful UI and URL search params.
+- Responsive UI: Styled with CSS for a clean, modern look, including custom graphics and images.
+  
+## Features
+- Browse all available vans, filter by type, and view detailed van information.
+- Host dashboard with income stats, reviews, and management of listed vans.
+- Authentication-protected routes for host features.
+- Error boundaries and loading states for robust UX.
+- Modular file structure for scalability and maintainability.
+  
+## Tech Stack
+- React 18
+- React Router DOM v6
+- MirageJS (API mocking)
+- Firebase Firestore (optional, for real backend)
+- Vite (development/build tooling)
+- CSS (custom styles)
+- React Icons
