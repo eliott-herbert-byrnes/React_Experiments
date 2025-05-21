@@ -9,6 +9,8 @@ import {
     where
 } from "firebase/firestore/lite"
 
+/* API key goes here */
+
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app)
 
