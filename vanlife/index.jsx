@@ -4,9 +4,8 @@ import {
   RouterProvider,
   createBrowserRouter, 
   createRoutesFromElements, 
-  BrowserRouter, 
-  Routes, 
-  Route} from "react-router-dom"
+  Route
+} from "react-router-dom"
 import Home from "./pages/Home"
 import About from "./pages/About"
 import Vans, {loader as vansData} from "./pages/Vans/Vans"
@@ -29,7 +28,6 @@ import AuthRequired from "./components/AuthRequired"
 import "./server"
 
 function App() {
-
 
 const router = createBrowserRouter(createRoutesFromElements(
 <Route path="/" element={<Layout />}>
