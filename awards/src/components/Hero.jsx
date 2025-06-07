@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { useState, useRef } from 'react'
-import { TiLocation, TiLocationArrow } from 'react-icons/ti'
+import { TiLocationArrow } from 'react-icons/ti'
 import Button from './Button'
 import gsap from 'gsap'
 import { useGSAP } from '@gsap/react'
