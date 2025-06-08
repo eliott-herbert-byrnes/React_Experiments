@@ -113,7 +113,7 @@ const Hero = () => {
                     <video
                         ref={nextVideoRef}
                         src={getVideoSrc(currentIndex)}
-                        loop
+                        // loop
                         muted
                         id='next-video'
                         className='absolute-center invisible absolute z-20 size-64 object-cover object-center'
@@ -124,7 +124,7 @@ const Hero = () => {
                     <video
                         src={getVideoSrc(currentIndex === totalVideos - 1 ? 1 : currentIndex)}
                         // autoPlay
-                        loop
+                        // loop
                         muted
                         className='absolute left-0 top-0 size-full object-cover object-center'
                         onLoadedData={handleVideoLoad}
@@ -133,7 +133,7 @@ const Hero = () => {
                     <h1 className='absolute special-font text-blue-75 hero-heading bottom-5 right-5 z-40'>G<b>a</b>ming</h1>
 
                     <div className="absolute top-0 left-0 z-40 size-full">
-                        <div className="mt-5 px-5 sm:px-10">
+                        <div className="mt-25 px-5 sm:px-10">
                             <h1 className='special-font hero-heading text-blue-100'>Re<b>f</b>ine</h1>
                             <p className='mb-5 w-max-64 font-robert-medium text-blue-100'>Enter the Metagame Layer <br /> Unleash the Play Economy</p>
 
