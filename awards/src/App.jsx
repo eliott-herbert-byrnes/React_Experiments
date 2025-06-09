@@ -3,6 +3,9 @@ import Hero from './components/Hero'
 import About from './components/About'
 import Navbar from './components/Navbar'
 import Features from './components/Features'
+import Story from './components/Story'
+import Footer from './components/Footer'
+import Contact from './components/Contact'
 import './App.css'
 
 const App = () => {
@@ -12,6 +15,9 @@ const App = () => {
       <Hero />
       <About />
       <Features />
+      <Story />
+      <Contact />
+      <Footer />
     </main>
 
   )
